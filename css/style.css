@@ -449,6 +449,204 @@ img {
   color: var(--black-100);
 }
 
+/*===== portfolio =====*/
+.newBtn button a i {
+  color: var(--shadow-black-100);
+  font-size: larger;
+}
+.newBtn button {
+  border: none;
+  padding: 8%;
+  margin: auto;
+  border-radius: 10%;
+}
+.newBtn button:hover {
+  background-color: var(--main-color);
+}
+.details h1,
+h3 {
+  color: var(--main-color);
+}
+.details h3 {
+  text-decoration: underline;
+}
+.portfolio .portfolio-filter {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio .portfolio-filter button {
+  text-transform: uppercase;
+  margin-top: -20px;
+  outline: none;
+  border: 1px solid;
+  border-color: var(--main-color);
+  padding: 8px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: var(--white);
+  margin-right: 20px;
+  color: var(--main-color);
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-filter button:last-child {
+  margin-right: 0;
+}
+
+.portfolio .portfolio-filter button:hover,
+.portfolio .portfolio-filter button.active {
+  color: var(--white);
+  background-color: var(--main-color);
+}
+
+.portfolio .portfolio-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio .portfolio-item.hide {
+  display: none;
+}
+
+.portfolio .portfolio-item.show {
+  display: block;
+  animation: showItem 0.5s ease;
+}
+
+@keyframes showItem {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.portfolio .portfolio-item-inner {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: var(--shadow-black-100);
+  cursor: pointer;
+  position: relative;
+}
+
+.portfolio .portfolio-item-inner .portfolio-img img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio .portfolio-item .portfolio-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-info h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--main-color);
+  text-transform: capitalize;
+  transform: translateX(-20px);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.portfolio .portfolio-item:hover .portfolio-info h4 {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-info .icon {
+  height: 40px;
+  width: 40px;
+  color: var(--white);
+  background-color: var(--main-color);
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  transform: translateX(20px);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.portfolio .portfolio-item:hover .portfolio-info .icon {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-info .icon .fa {
+  line-height: 40px;
+}
+
+/*===== education =====*/
+.vertical {
+  border-left: 3px solid #000;
+  height: 100px;
+  position: absolute;
+  margin-left: 50%;
+}
+.education-item {
+  flex: 0 0 33%;
+  max-width: 33%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.education-plan {
+  overflow: hidden;
+  width: 80%;
+}
+.education-plan i {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  gap: 10px;
+  margin: -4%;
+  background: var(--main-color);
+}
+.education-plan h3 {
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+}
+.education-plan p {
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+.education-plan span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #62aad4;
+  border-radius: 5rem;
+}
 /*Responsive*/
 @media (min-width: 1300px) and (max-width: 1399px) {
   .header-social {
@@ -525,9 +723,19 @@ img {
   .home-image .img-box {
     margin-top: 30px;
   }
+  .education .education-item,
+  .portfolio .portfolio-item,
   .skills-section .skills-item {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .education-plan {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+  }
+  .education-plan i {
+    margin: -13%;
   }
 }
 
@@ -535,6 +743,8 @@ img {
   .header-social {
     left: 85%;
   }
+  .education .education-item,
+  .portfolio .portfolio-item,
   .skills-section .skills-item,
   .about-section .about-content {
     flex: 0 0 100%;
