@@ -1118,21 +1118,7 @@ footer .copyright-text {
 @media (min-width: 300px) and (max-width: 600px) {
   .header-social {
     position: absolute;
-    bottom: 20%;
-    left: 5%;
-  }
-  .header-social .contact-icons * {
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-  }
-  .header-social .contact-icons:not(:last-child) {
-    margin-right: 4rem;
-  }
-  .header-social .contact-icons {
-    font-size: 0.5rem;
-    cursor: pointer;
-    transition: all 300ms ease-in-out;
+    left: 80%;
   }
   .contact-form {
     padding: 4%;
