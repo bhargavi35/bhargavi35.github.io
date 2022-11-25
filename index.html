@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bhargavi_Chella</title>
     <!--===== Font Awesome =====-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!--===== Main CSS =====-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-
+    <!-- git cal -->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +27,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="logo"><a href="index.html">Bhargavi</a></div>
+                <div class="logo"><a href="index.html"><img src="images/b1.jpg" alt=""> Bhargavi</a></div>
                 <div class="links">
                     <ul class="menu">
                         <li class="nav-item"><a href="#home" class="nav-link active">Home <span></span></a></li>
@@ -146,18 +148,17 @@
     <!--===== Services Section Start =====-->
     <section class="skills-section section-padding" id="skills">
         <div class="container">
-            <div class="row">
-                <div class="section-title text-align">
-                    <h5 class="sub-title">Skills</h5>
-                    <h3 class="main-title">My Technical Skills</h3>
-                    <ul class="line">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <!--===== Section Title =====-->
+            <div class="section-title text-align">
+                <h5 class="sub-title">Skills</h5>
+                <h3 class="main-title">My Technical Skills</h3>
+                <ul class="line">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
+            <!--===== Section Title =====-->
+
             <div class="row">
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
@@ -198,18 +199,18 @@
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/node.jpg" width="45%" alt="">
+                            <img src="images/portfolio/node.jpg" width="40%" alt="">
                         </div>
                         <br>
                         <h3>Node JS</h3>
                     </div>
                 </div>
-            </div>
-            <div class="row">
+
+
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/b.png" width="50%" alt="">
+                            <img src="images/portfolio/b.png" width="30%" alt="">
                         </div>
                         <br>
                         <h3>BootStrap</h3>
@@ -251,17 +252,17 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="skills-item" data-category="front">
-                    <div class="skills-item-inner">
-                        <div>
-                            <img src="images/portfolio/redux.jpg" width="50%" alt="">
-                        </div>
-                        <br>
-                        <h3>Redux</h3>
+
+            <div class="skills-item" data-category="front">
+                <div class="skills-item-inner">
+                    <div>
+                        <img src="images/portfolio/redux.jpg" width="50%" alt="">
                     </div>
+                    <br>
+                    <h3>Redux</h3>
                 </div>
             </div>
+
         </div>
     </section>
     <!--===== Services Section End =====-->
@@ -524,10 +525,61 @@
         </div>
     </section>
     <!-- call to action end -->
+    <!-- github start -->
+    <br><br>
+    <section class="cal">
+        <div class="main-text">
+            <h1>Days | <span style="color: #00a78e;margin: auto;">Code </span></h1>
+            <h3><br> </h3>
+        </div>
+        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+        </script>
 
+        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+
+        <script>
+            GitHubCalendar(".calendar", "bhargavi35");
+
+            // or enable responsive functionality:
+            GitHubCalendar(".calendar", "bhargavi35", { responsive: true });
+
+        </script>
+        <br>
+        <div class="stats">
+            <h2><b>My GitHub Statistics</b></h2>
+            <br>
+            <p display="flex" style="align-items: center;">
+                <a href="https://github.com/bhargavi35?tab=repositories">
+                    <img width="450" alt="Bhargavi's github stats"
+                        src="https://github-readme-stats.vercel.app/api?username=bhargavi35&show_icons=true&theme=algolia&count_private=true" />
+                </a>
+
+                <img width="450" style="align-items: center;"
+                    src="https://github-readme-streak-stats.herokuapp.com/?user=bhargavi35&hide=smalltalk&theme=algolia&layout=compact"
+                    alt="bhargavi35" />
+            </p>
+        </div>
+    </section>
+    <br><br>
     <!--===== Contact Section Start =====-->
     <section class="contact-section section-padding" id="contact">
         <div class="container">
+            <div class="row">
+                <div class="section-title text-align">
+                    <h5 class="sub-title">contact</h5>
+                    <h3 class="main-title">Get in touch</h3>
+                    <ul class="line">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
             <div class="contact-text">
                 <!-- <h4>Let's Work Together</h4> -->
                 <div><img src="images/contact-img.svg" alt=""></div>
