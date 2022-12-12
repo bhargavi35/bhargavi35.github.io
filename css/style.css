@@ -1215,17 +1215,24 @@ h3 {
   margin-top: 7rem;
 }
 .contact-form form input,
-form textarea {
+.contact-form form textarea {
   border: none;
   outline: none;
   width: 55%;
   padding: 18px;
-  background: #12141c;
+  /* background: #383d50; */
+  border: 2px solid #12141c;
   color: var(--text-color);
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
+}
+
+.contact-form form input:hover,
+.contact-form form textarea:hover {
+  background: transparent;
+  border: 1px solid var(--main-color);
 }
 .contact-form textarea {
   resize: none;
