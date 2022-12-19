@@ -725,7 +725,8 @@ body.dark {
 /*===== portfolio =====*/
 .newBtn button a i {
   color: var(--shadow-black-100);
-  font-size: larger;
+  font-size: 20px;
+  font-weight: 600;
 }
 .newBtn button {
   border: none;
@@ -1026,6 +1027,7 @@ h3 {
 
 .education .box-container .box span {
   font-size: 1rem;
+  font-weight: 600;
   /* background: var(--main-color); */
   /* color: var(--main-color); */
   border-radius: 5rem;
@@ -1115,7 +1117,7 @@ h3 {
 .call-to-action {
   background: url("../images/portfolio/cont.jpg");
   background-position: center top;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
