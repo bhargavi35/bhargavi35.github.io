@@ -744,6 +744,12 @@ h3 {
 .details h3 {
   text-decoration: underline;
 }
+.details .para{
+  text-align:justify;
+  font-size:15px;
+  letter-spacing: normal;
+  font-weight: 600;
+}
 .portfolio .portfolio-filter {
   flex: 0 0 100%;
   max-width: 100%;
