@@ -33,12 +33,12 @@
                         <li class="nav-item"><a href="#home" class="nav-link active home">Home <span></span></a></li>
                         <li class="nav-item"><a href="#about" class="nav-link about">About <span></span></a></li>
                         <li class="nav-item"><a href="#skills" class="nav-link skills">Skills <span></span></a></li>
-                        <li class="nav-item"><a href="#projects" class="nav-link projects">Projects <span></span></a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link projects">Projects <span></span></a>
+                        </li>
                         <li class="nav-item"><a href="#resume" class="nav-link resume">Resume <span></span></a></li>
-                        <li class="nav-item"><a
-                                href="./Files/Bhargavi_Chella_Resume.pdf";
-                                download="Bhargavi_Chella_Resume"
-                                target="_blank"><i class="fas fa-sharp fa-solid fa-arrow-down"></i></a></li>
+                        <li class="nav-item"><a href="./Files/Bhargavi_Chella_Resume.pdf" ;
+                                download="Bhargavi_Chella_Resume" id="resume-link-1" target="_blank"><i
+                                    class="fas fa-sharp fa-solid fa-arrow-down"></i></a></li>
                         <li class="nav-item"><a href="#contact" class="nav-link contact">Contact <span></span></a></li>
                         <!-- dark -->
                         <li class="nav-item day-night s-icon">
@@ -67,7 +67,7 @@
             <div class="row align-items-center">
                 <div class="home-text">
                     <h3>Hello I'm</h3>
-                    <h1>Bhargavi Chella</h1>
+                    <h1 id="user-detail-name">Bhargavi Chella</h1>
                     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=100&width=435&lines=Full+Stack+Web+Developer+%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB;A+Sketcher+%E2%9C%8F%EF%B8%8F;A+Professional+Coder+%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB;"
                         style="max-width: 100%;">
                     <p>Proactive, performance-oriented programmer with granular knowledge of MERN stack equipped to
@@ -75,10 +75,10 @@
                         growth experience in a demanding capacity as a full-stack web developer.
                     </p>
                     <a href="https://drive.google.com/file/d/1WtzANU_TBBA_T3BdWapY9g9DURWY0Fcv/view?usp=share_link"
-                        target="_blank" class="btn btn-1">Resume</a>
+                        target="_blank" class="btn btn-1" id="resume-link-2">Resume</a>
                 </div>
                 <div class="home-image">
-                    <div class="img-box">
+                    <div class="img-box home-img">
                         <img src="images/b.jpg" alt="">
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                         </ul>
                     </div>
                     <!--===== Section Title =====-->
-                    <div class="tab-contents">
+                    <div class="tab-contents" id="user-detail-intro">
                         <ul>
                             <li>
                                 Hey, My Name is Bhargavi Chella from Karimnagar,
@@ -165,46 +165,46 @@
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/html.jpg" width="50%" alt="">
+                            <img class="skills-card-img" src="images/portfolio/html.jpg" width="50%" alt="">
                         </div>
                         <br>
-                        <h3>HTML</h3>
+                        <h3 class="skills-card-name">HTML</h3>
                     </div>
                 </div>
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/css.jpg" width="35%" alt="">
+                            <img class="skills-card-img" src="images/portfolio/css.jpg" width="35%" alt="">
                         </div>
                         <br>
-                        <h3>CSS</h3>
+                        <h3 class="skills-card-name">CSS</h3>
                     </div>
                 </div>
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/js.jpg" width="50%" alt="">
+                            <img class="skills-card-img" src="images/portfolio/js.jpg" width="50%" alt="">
                         </div>
                         <br>
-                        <h3>JS</h3>
+                        <h3 class="skills-card-name">JS</h3>
                     </div>
                 </div>
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/rct.jpg" width="60%" alt="">
+                            <img class="skills-card-img" src="images/portfolio/rct.jpg" width="60%" alt="">
                         </div>
                         <br>
-                        <h3>React</h3>
+                        <h3 class="skills-card-name">React</h3>
                     </div>
                 </div>
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/node.jpg" width="40%" alt="">
+                            <img class="skills-card-img" src="images/portfolio/node.jpg" width="40%" alt="">
                         </div>
                         <br>
-                        <h3>Node JS</h3>
+                        <h3 class="skills-card-name">Node JS</h3>
                     </div>
                 </div>
 
@@ -212,45 +212,45 @@
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/b.png" width="30%" alt="">
+                            <img class="skills-card-img" src="images/portfolio/b.png" width="30%" alt="">
                         </div>
                         <br>
-                        <h3>BootStrap</h3>
+                        <h3 class="skills-card-name">BootStrap</h3>
                     </div>
                 </div>
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/express.jpg" width="45%" alt="">
+                            <img class="skills-card-img" src="images/portfolio/express.jpg" width="45%" alt="">
                         </div>
-                        <h3>Express</h3>
+                        <h3 class="skills-card-name">Express</h3>
                     </div>
                 </div>
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/mong.jpg" width="50%" alt="">
+                            <img class="skills-card-img" src="images/portfolio/mong.jpg" width="50%" alt="">
                         </div>
                         <br>
-                        <h3>MongoDB</h3>
+                        <h3 class="skills-card-name">MongoDB</h3>
                     </div>
                 </div>
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/chakra.jpg" width="50%" alt="">
+                            <img class="skills-card-img" src="images/portfolio/chakra.jpg" width="50%" alt="">
                         </div>
                         <br>
-                        <h3>Chakra UI</h3>
+                        <h3 class="skills-card-name">Chakra UI</h3>
                     </div>
                 </div>
                 <div class="skills-item" data-category="front">
                     <div class="skills-item-inner">
                         <div>
-                            <img src="images/portfolio/git.jpg" width="50%" alt="">
+                            <img class="skills-card-img" src="images/portfolio/git.jpg" width="50%" alt="">
                         </div>
                         <br>
-                        <h3>Git</h3>
+                        <h3 class="skills-card-name">Git</h3>
                     </div>
                 </div>
             </div>
@@ -258,10 +258,10 @@
             <div class="skills-item" data-category="front">
                 <div class="skills-item-inner">
                     <div>
-                        <img src="images/portfolio/redux.jpg" width="50%" alt="">
+                        <img class="skills-card-img" src="images/portfolio/redux.jpg" width="50%" alt="">
                     </div>
                     <br>
-                    <h3>Redux</h3>
+                    <h3 class="skills-card-name">Redux</h3>
                 </div>
             </div>
 
@@ -301,18 +301,18 @@
                                 <div class="details" style="padding: 5%;">
                                     <h1>Meals website
                                     </h1><br>
-                                    <p class="para">"Freshly is a food delivery website. It is a New York-based prepared
+                                    <p class="para project-description">"Freshly is a food delivery website. It is a New York-based prepared
                                         meal
                                         delivery company that delivers throughout the United States
                                         ..."</p><br>
-                                    <h3>Tech Stacks:</h3><br>
+                                    <h3 class="project-tech-stack">Tech Stacks:</h3><br>
                                     <p> React | Chakra UI | Javascript | API</p>
                                 </div>
                                 <div class="newBtn" style="align-items: center;padding: 5%;">
                                     <button> <a href="https://github.com/bhargavi35/Freshly_Clone" target="_blank">
-                                            <i class="fab fa-brands fa-github"> GitHub</i> </a></button>
+                                            <i class="fab fa-brands fa-github project-github-link"> GitHub</i> </a></button>
                                     <button><a href="https://freshlyp-bhargavi35.vercel.app/" target="_blank">
-                                            <i class="fa fa-link"> Demo</i>
+                                            <i class="fa fa-link project-deployed-link"> Demo</i>
                                         </a></button>
 
                                 </div>
@@ -322,7 +322,7 @@
                 </div> -->
                 <!--===== portfolio-item end =====-->
                 <!--===== portfolio-item start =====-->
-                <div class="portfolio-item" data-category="solo">
+                <div class="portfolio-item project-card" data-category="solo">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
                             <div class="port">
@@ -330,20 +330,22 @@
                             </div>
                             <div>
                                 <div class="details" style="padding: 5%;">
-                                    <h1>Book Store website
+                                    <h1 class="project-title">Book Store website
                                     </h1><br>
-                                    <p class="para">“IDEAKART-Idea kart is a site that gives you an idea about the book
+                                    <p class="para project-description">“IDEAKART-Idea kart is a site that gives you an
+                                        idea about the book
                                         you
                                         want to buy.
                                         "</p><br>
-                                    <h3>Tech Stacks:</h3><br>
+                                    <h3 class="project-tech-stack">Tech Stacks:</h3><br>
                                     <p>React | Chakra UI | Javascript | JSON Server</p>
                                 </div>
                                 <div class="newBtn" style="align-items: center;padding: 5%;">
                                     <button> <a href="https://github.com/bhargavi35/Ideakart_Clone" target="_blank">
-                                            <i class="fab fa-brands fa-github"> GitHub</i> </a></button>
+                                            <i class="fab fa-brands fa-github project-github-link"> GitHub</i>
+                                        </a></button>
                                     <button><a href="https://ideakart-bhargavi35.vercel.app/" target="_blank">
-                                            <i class="fa fa-link"> Demo</i>
+                                            <i class="fa fa-link project-deployed-link"> Demo</i>
                                         </a></button>
 
                                 </div>
@@ -351,7 +353,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item" data-category="group">
+                <div class="portfolio-item project-card" data-category="group">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
                             <div class="port">
@@ -359,22 +361,24 @@
                             </div>
                             <div>
                                 <div class="details" style="padding: 5%;">
-                                    <h1>E-Commerce website
+                                    <h1 class="project-title">E-Commerce website
                                     </h1><br>
-                                    <p class="para">"Travelocity Clone website, which is an online travel agency owned
+                                    <p class="para project-description">"Travelocity Clone website, which is an online
+                                        travel agency owned
                                         by
                                         Expedia Group & also providing booking hotels,Cars,Flights facility to
                                         customers."
                                     </p><br>
-                                    <h3>Tech Stacks:</h3><br>
+                                    <h3 class="project-tech-stack">Tech Stacks:</h3><br>
                                     <p>React | Redux | Redux-Thunk | Api | Json-server | Material-UI | Chakra UI </p>
                                 </div>
                                 <div class="newBtn" style="align-items: center;padding: 5%;">
                                     <button> <a href="https://github.com/bhargavi35/Travelocity_Clone" target="_blank">
-                                            <i class="fab fa-brands fa-github"> GitHub</i> </a></button>
+                                            <i class="fab fa-brands fa-github project-github-link"> GitHub</i>
+                                        </a></button>
                                     <button><a href="https://travelocity-clone-git-main-damanjot6767.vercel.app/"
                                             target="_blank">
-                                            <i class="fa fa-link"> Demo</i>
+                                            <i class="fa fa-link project-deployed-link"> Demo</i>
                                         </a></button>
 
                                 </div>
@@ -384,7 +388,7 @@
                 </div>
                 <!--===== portfolio-item end =====-->
                 <!--===== portfolio-item start =====-->
-                <div class="portfolio-item" data-category="solo">
+                <div class="portfolio-item project-card" data-category="solo">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
                             <div class="port">
@@ -393,21 +397,22 @@
                             </div>
                             <div>
                                 <div class="details" style="padding: 5%;">
-                                    <h1>Pharmacy website
+                                    <h1 class="project-title">Pharmacy website
                                     </h1><br>
-                                    <p class="para">
+                                    <p class="para project-description">
                                         “Netmeds — India’s most convenient online pharmacy
                                         with over 100 years’ experience in dispensing quality
                                         medicines.
                                         "</p><br>
-                                    <h3>Tech Stacks:</h3><br>
+                                    <h3 class="project-tech-stack">Tech Stacks:</h3><br>
                                     <p>HTML | CSS | Javascript | LocalStorage | Chakra UI</p>
                                 </div>
                                 <div class="newBtn" style="align-items: center;padding: 5%;">
                                     <button> <a href="https://github.com/bhargavi35/Netmeds_Clone" target="_blank">
-                                            <i class="fab fa-brands fa-github"> GitHub</i> </a></button>
+                                            <i class="fab fa-brands fa-github project-github-link"> GitHub</i>
+                                        </a></button>
                                     <button><a href="https://netmeds-plum.vercel.app/" target="_blank">
-                                            <i class="fa fa-link"> Demo</i>
+                                            <i class="fa fa-link project-deployed-link"> Demo</i>
                                         </a></button>
 
                                 </div>
@@ -417,7 +422,7 @@
                 </div>
                 <!--===== portfolio-item end =====-->
                 <!--===== portfolio-item start =====-->
-                <div class="portfolio-item" data-category="group">
+                <div class="portfolio-item project-card" data-category="group">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
                             <div class="port">
@@ -425,23 +430,25 @@
                             </div>
                             <div>
                                 <div class="details" style="padding: 5%;">
-                                    <h1>E-Commerce website
+                                    <h1 class="project-title">E-Commerce website
                                     </h1><br>
-                                    <p class="para">"Mytheresa is an online shopping destination for children, men
+                                    <p class="para project-description">"Mytheresa is an online shopping destination for
+                                        children, men
                                         and
                                         women's
                                         luxury clothing, bags, shoes, and accessories. Our edit makes it possible
                                         for you to"
                                     </p><br>
-                                    <h3>Tech Stacks:</h3><br>
+                                    <h3 class="project-tech-stack">Tech Stacks:</h3><br>
                                     <p>HTML | CSS | Javascript | LocalStorage | Chakra UI</p>
                                 </div>
                                 <div class="newBtn" style="align-items: center;padding: 5%;">
                                     <button> <a href="https://github.com/bhargavi35/Mytheresa-clone-website"
                                             target="_blank">
-                                            <i class="fab fa-brands fa-github"> GitHub</i> </a></button>
+                                            <i class="fab fa-brands fa-github project-github-link"> GitHub</i>
+                                        </a></button>
                                     <button><a href="https://eclectic-paletas-0001f4.netlify.app/" target="_blank">
-                                            <i class="fa fa-link"> Demo</i>
+                                            <i class="fa fa-link project-deployed-link"> Demo</i>
                                         </a></button>
 
                                 </div>
@@ -450,7 +457,7 @@
                     </div>
                 </div>
                 <!--===== portfolio-item end =====-->
-                <div class="portfolio-item" data-category="group">
+                <div class="portfolio-item project-card" data-category="group">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
                             <div class="port">
@@ -458,21 +465,23 @@
                             </div>
                             <div>
                                 <div class="details" style="padding: 5%;">
-                                    <h1>E-Commerce Website
+                                    <h1 class="project-title">E-Commerce Website
                                     </h1><br>
-                                    <p class="para">"This is a Collaborative Project. We clone the Boat-lifestyle
+                                    <p class="para project-description">"This is a Collaborative Project. We clone the
+                                        Boat-lifestyle
                                         website
                                         and added functionality like Signup, Login, Search Products, add to cart,
                                         and
                                         Payment Gateway."</p><br>
-                                    <h3>Tech Stacks:</h3><br>
+                                    <h3 class="project-tech-stack">Tech Stacks:</h3><br>
                                     <p>HTML | CSS | Javascript | LocalStorage | Chakra UI</p>
                                 </div>
                                 <div class="newBtn" style="align-items: center;padding: 5%;">
                                     <button> <a href="https://github.com/bhargavi35/Boat_Clone" target="_blank">
-                                            <i class="fab fa-brands fa-github"> GitHub</i> </a></button>
+                                            <i class="fab fa-brands fa-github project-github-link"> GitHub</i>
+                                        </a></button>
                                     <button><a href="https://boat-project-unit-2.vercel.app/" target="_blank">
-                                            <i class="fa fa-link"> Demo</i>
+                                            <i class="fa fa-link project-deployed-link"> Demo</i>
                                         </a></button>
 
                                 </div>
@@ -483,7 +492,7 @@
                 </div>
 
                 <!--===== portfolio-item start =====-->
-                <div class="portfolio-item" data-category="solo">
+                <div class="portfolio-item project-card" data-category="solo">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
                             <div class="port">
@@ -491,20 +500,22 @@
                             </div>
                             <div>
                                 <div class="details" style="padding: 5%;">
-                                    <h1>CareerComposer
+                                    <h1 class="project-title">CareerComposer
                                     </h1><br>
-                                    <p class="para">CareerComposer- I designed and developed a sleek and intuitive user
+                                    <p class="para project-description">CareerComposer- I designed and developed a sleek
+                                        and intuitive user
                                         interface that allows users to input their information and create a
                                         well-formatted resume in minutes.
-                                        </p><br>
-                                    <h3>Tech Stacks:</h3><br>
+                                    </p><br>
+                                    <h3 class="project-tech-stack">Tech Stacks:</h3><br>
                                     <p>React | Chakra UI | Javascript</p>
                                 </div>
                                 <div class="newBtn" style="align-items: center;padding: 5%;">
                                     <button> <a href="https://github.com/bhargavi35/CareerComposer" target="_blank">
-                                            <i class="fab fa-brands fa-github"> GitHub</i> </a></button>
+                                            <i class="fab fa-brands fa-github project-github-link"> GitHub</i>
+                                        </a></button>
                                     <button><a href="https://ccresume-bhargavi35.vercel.app/" target="_blank">
-                                            <i class="fa fa-link"> Demo</i>
+                                            <i class="fa fa-link project-deployed-link"> Demo</i>
                                         </a></button>
 
                                 </div>
@@ -618,7 +629,7 @@
 
         <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
-        <div class="calendar">
+        <div class="calendar react-activity-calendar">
             <!-- Loading stuff -->
             Loading the data just for you.
         </div>
@@ -635,12 +646,12 @@
             <h2><b>My <span>Github</span> Statistics</b></h2>
             <br>
             <p display="flex" style="align-items: center;">
-                <a href="https://github.com/bhargavi35?tab=repositories">
+                <a href="https://github.com/bhargavi35?tab=repositories" id="github-streak-stats">
                     <img width="450" alt="Bhargavi's github stats"
                         src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=bhargavi35&show_icons=true&theme=algolia&count_private=true" />
                 </a>
 
-                <img width="450" style="align-items: center;"
+                <img width="450" style="align-items: center;" id="github-stats-card"
                     src="https://github-readme-streak-stats.herokuapp.com/?user=bhargavi35&hide=smalltalk&theme=algolia&layout=compact"
                     alt="bhargavi35" />
             </p>
@@ -668,7 +679,7 @@
                         <!--===== contact item start =====-->
                         <div class="contact-item">
                             <div class="contact-item-inner">
-                                <i class="fas fa-phone"></i>
+                                <i class="fas fa-phone" id="contact-phone"></i>
                                 <span>Phone</span>
                                 <h3>+91 9391057631</h3>
                             </div>
@@ -678,7 +689,8 @@
                         <!--===== contact item start =====-->
                         <div class="contact-item">
                             <div class="contact-item-inner">
-                                <a href="mailto:chellabhargavi2002@gmail.com" target="_blank"><i class=" fas
+                                <a href="mailto:chellabhargavi2002@gmail.com" id="contact-email" target="_blank"><i
+                                        class=" fas
                     fa-envelope"></i></a>
                                 <span>Email</span>
                                 <h3>chellabhargavi2002@gmail.com</h3>
@@ -699,9 +711,10 @@
                 </div>
                 <p></p>
                 <div class="contact-icons">
-                    <a href="https://www.linkedin.com/in/bhargavichella/" target="_blank"><i
+                    <a href="https://www.linkedin.com/in/bhargavichella/" id="contact-linkedin" target="_blank"><i
                             class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/bhargavi35" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://github.com/bhargavi35" id="contact-github" target="_blank"><i
+                            class='bx bxl-github'></i></a>
                     <a href="mailto:chellabhargavi2002@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
                     <a href="https://medium.com/@chellabhargavi2002" target="_blank"><i class='bx bxl-medium'></i></a>
                 </div>
